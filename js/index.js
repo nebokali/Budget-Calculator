@@ -1,5 +1,25 @@
 'use strict';
 
+let buttonStart = document.getElementById("start"),
+    budget = document.querySelectorAll(".budget-value"),
+    daybudget = document.querySelectorAll(".daybudget-value"),
+    level = document.querySelectorAll(".level-value"),
+    expenses = document.querySelectorAll(".expenses-value"),
+    optionalExpenses = document.querySelectorAll(".optionalexpenses-value"),
+    income = document.querySelectorAll(".income-value"),
+    monthSavings = document.querySelectorAll(".monthsavings-value"),
+    expencesInputs = document.querySelectorAll(".expenses-item"),
+    buttonApproveNeccessary = document.getElementsByTagName("button")[0],
+    buttonApproveOptional = document.getElementsByTagName("button")[1],
+    buttonCount = document.getElementsByTagName("button")[2],
+    incomeChoice = document.querySelector(".choose-income"),
+    savings = document.getElementById("savings"),
+    sum = document.querySelector(".choose-sum"),
+    percentage = document.querySelector(".choose-percent"),
+    day = document.querySelector(".day-value"),
+    month = document.querySelector(".month-value"),
+    year = document.querySelector(".year-value");
+
 
 let money, time;
 
